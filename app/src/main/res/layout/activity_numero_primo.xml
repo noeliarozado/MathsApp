@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NumeroPrimoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPrimo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="#EFCEF4"
+                android:text="@string/tvPrimo"
+                android:textAlignment="center"
+                android:textColor="#673AB7"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvNúmero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/tvNúmero"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etNúmeroPrimo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:ems="10"
+                android:hint="Número"
+                android:inputType="numberSigned"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/tvInstrucciónBotónPrimo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="#FFFFFF"
+                android:text="@string/tvInstrucciónBotónPrimo"
+                android:textAlignment="textStart"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/bNúmeroPrimo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#3DC2FF"
+                android:onClick="númeroPrimo"
+                android:text="@string/bNúmeroPrimo"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/tvResultadoPrimo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="#FFF59C"
+                android:text="@string/tvResultadoPrimo"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/bVolverAcerca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#E91E63"
+                android:onClick="volver"
+                android:text="@string/bVolverPrimo"
+                tools:ignore="TextContrastCheck" />
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fPublicidadPrimo"
+                android:name="com.example.appmatematica.PublicidadFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                tools:layout="@layout/publicidad_fragment" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

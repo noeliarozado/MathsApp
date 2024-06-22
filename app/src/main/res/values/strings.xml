@@ -1,0 +1,145 @@
+<resources>
+
+    <!--- Respuestas de la pregunta 5 del test -->
+    <string-array name="respuestasPregunta5Array">
+        <item>Choose an answer</item>
+        <item>19</item>
+        <item>94</item>
+        <item>46</item>
+    </string-array>
+    <!--- Respuestas de la pregunta 6 del test -->
+    <string-array name="respuestasPregunta6Array">
+        <item>Choose an answer</item>
+        <item>10</item>
+        <item>100</item>
+        <item>1000</item>
+    </string-array>
+
+    <!--- Traducción del Nombre de la App -->
+    <string name="app_name">MathsApp</string>
+    <!--- Traducción de MainActivity -->
+    <string name="tvBienvenida">Welcome to MathsApp</string>
+    <string name="tvOpción">Choose an option:</string>
+    <string name="bCalculadora">CALCULATOR</string>
+    <string name="bAleatorio">RANDOM NUMBER</string>
+    <string name="bParImpar">EVEN OR ODD</string>
+    <string name="bPrimo">PRIME NUMBER</string>
+    <string name="bTest">TEST</string>
+    <string name="bAcercaDe">ABOUT</string>
+    <string name="bSalir">EXIT</string>
+    <string name="strSalir">Exit</string>
+    <string name="strPreguntaSalir">Do you want to close the App?</string>
+    <string name="strSí">Yes</string>
+    <string name="strNo">No</string>
+    <!--- Traducción de PublicidadFragment -->
+    <string name="tvPublicidad">THE BREADCRUMB BAKERY. Enjoy freshly baked bread every day. We also bake empanadas and Asturian desserts. 100% artisan products.</string>
+    <!--- Traducción de CalculadoraActivity -->
+    <string name="tvCalculadora">CALCULATOR</string>
+    <string name="tvInfoToggleButton">Turn on the calculator to start performing operations.</string>
+    <string name="tbCalculadora">CALCULATOR OFF</string>
+    <string name="tvNúmero1">Enter the first number:</string>
+    <string name="etNúmero1">Number 1</string>
+    <string name="tvNúmero2">Enter the second number:</string>
+    <string name="etNúmero2">Number 2</string>
+    <string name="tvOperación">Choose the operation to perform:</string>
+    <string name="bSumar">ADD</string>
+    <string name="bRestar">SUBTRACT</string>
+    <string name="bMultiplicar">MULTIPLY</string>
+    <string name="bDividir">DIVIDE</string>
+    <string name="tvResultadoCalculadora">Result: -</string>
+    <string name="bVolver">BACK</string>
+    <string name="strCalcuApagada">Calculator off. Press the button to turn it on.</string>
+    <string name="strErrorDosNum">ERROR! It is required to enter two numbers to perform the operations.</string>
+    <string name="strResultadoSumar">Result:</string>
+    <string name="strResultadoRestar">Result:</string>
+    <string name="strResultadoMultiplicar">Result:</string>
+    <string name="strResultadoDividir">Result:</string>
+    <string name="strErrorDivisorCero">ERROR! The divisor cannot be zero.</string>
+    <!--- Traducción de AleatorioActivity -->
+    <string name="tvAleatorio">RANDOM NUMBER</string>
+    <string name="tvInstrucciónSwitch">Press the button to turn it on.</string>
+    <string name="sAleatorio">Off</string>
+    <string name="tvNúmeroAleatorio1">Enter a whole number:</string>
+    <string name="etNúmero1Aleatorio">Number 1</string>
+    <string name="tvNúmeroAleatorio2">Enter another whole number:</string>
+    <string name="etNúmero2Aleatorio">Number 2</string>
+    <string name="tvInstrucciónBotón">Press the button to get a random number within the selected range.</string>
+    <string name="bNúmeroAleatorio">RANDOM NUMBER</string>
+    <string name="tvResultadoAleatorio">Number: -</string>
+    <string name="bVolverAleatorio">BACK</string>
+    <string name="strBotónApagado">It is off. Press the button to turn it on.</string>
+    <string name="strErrorDosNúmeros">ERROR! You must enter two numbers.</string>
+    <string name="strErrorMayorCero">ERROR! Numbers have to be greater than 0.</string>
+    <string name="strErrorNúmerosIguales">ERROR! Numbers cannot be the same.</string>
+    <string name="strErrorNúmeroMayor">ERROR! The first number has to be greater than the second number.</string>
+    <string name="strResultadoAleatorio">Result:</string>
+    <!--- Traducción de ParImparActivity -->
+    <string name="tvParImpar">EVEN OR ODD</string>
+    <string name="tvNúmeroParImpar">Enter a number:</string>
+    <string name="etNúmeroPar">Number</string>
+    <string name="tvInstrucciónBotónPar">Press the button to know if the number is even or odd.</string>
+    <string name="bSaberParImpar">EVEN OR ODD</string>
+    <string name="tvResultadoPar">The number is: -</string>
+    <string name="bVolverPar">BACK</string>
+    <string name="strErrorFaltaNum">ERROR! You must enter a number.</string>
+    <string name="strErrorNumMayCero">ERROR! The number has to be greater than 0.</string>
+    <string name="strEsPar">It is an even number.</string>
+    <string name="strEsImpar">It is an odd number.</string>
+    <!--- Traducción de NumeroPrimoActivity -->
+    <string name="tvPrimo">PRIME NUMBER</string>
+    <string name="tvNúmero">Enter a number:</string>
+    <string name="etNúmeroPrimo">Number</string>
+    <string name="tvInstrucciónBotónPrimo">Press the button to knoe if the number is prime or not.</string>
+    <string name="bNúmeroPrimo">PRIME NUMBER</string>
+    <string name="tvResultadoPrimo">The number - prime.</string>
+    <string name="bVolverPrimo">BACK</string>
+    <string name="strErrorIntroduceNum">ERROR! You must enter a number.</string>
+    <string name="strErrorNumMayorCero">ERROR! The numbers has to be greater than 0.</string>
+    <string name="strNoPrimo">It is not a prime number.</string>
+    <string name="strEsPrimo">It is a prime number.</string>
+    <!--- Traducción de TestActivity -->
+    <string name="tvTest">TEST</string>
+    <string name="tvPregunta1">QUESTION 1. How many sides does a heptadecagon have?</string>
+    <string name="rbRespuesta1_1">17</string>
+    <string name="rbRespuesta1_2">70</string>
+    <string name="tvPregunta2">QUESTION 2. How many vertices does a tetrahedron have?</string>
+    <string name="rbRespuesta2_1">5</string>
+    <string name="rbRespuesta2_2">4</string>
+    <string name="tvPregunta3">QUESTION 3. Number 7 is:</string>
+    <string name="cbRespuesta3_1">A prime number.</string>
+    <string name="cbRespuesta3_2">An even number.</string>
+    <string name="cbRespuesta3_3">Ann odd number.</string>
+    <string name="tvPregunta4">QUESTION 4. Equilateral triangles:</string>
+    <string name="cbRespuesta4_1">Only have two equal sides.</string>
+    <string name="cbRespuesta4_2">Have three equal sides.</string>
+    <string name="cbRespuesta4_3">Have angles of 50º.</string>
+    <string name="cbRespuesta4_4">Have angles of 60º.</string>
+    <string name="tvPregunta5">QUESTION 5. What is the result of this operation? (12 + 8) x 5 – 6</string>
+    <string name="tvPregunta6">QUESTION 6. How many centimeters does a meter have?</string>
+    <string name="bPuntuación">SCORE</string>
+    <string name="tvPuntuación">Score: - points</string>
+    <string name="bVolverTest">BACK</string>
+    <string name="strPregunta1">ERROR! You must choose an answer in Question 1.</string>
+    <string name="strPregunta2">ERROR! You must choose an answer in Question 2.</string>
+    <string name="strPregunta3">ERROR! You must choose an answer in Question 3.</string>
+    <string name="strPregunta4">ERROR! You must choose an answer in Question 4.</string>
+    <string name="strPregunta5">ERROR! You must choose an answer in Question 5.</string>
+    <string name="strPregunta6">ERROR! You must choose an answer in Question 6.</string>
+    <string name="str0Puntos">0 points out of 6</string>
+    <string name="str1Punto">1 points out of 6</string>
+    <string name="str2Puntos">2 points out of 6</string>
+    <string name="str3Puntos">3 points out of 6</string>
+    <string name="str4Puntos">4 points out of 6</string>
+    <string name="str5Puntos">5 points out of 6</string>
+    <string name="str6Puntos">6 points out of 6</string>
+    <!--- Traducción de AcercaDeActivity -->
+    <string name="tvAcercaDe">ABOUT</string>
+    <string name="tvIdentificación">Noelia Rozado</string>
+    <string name="tvCorreo">https://github.com/noeliarozado</string>
+    <string name="bAprenda">LEARN MORE MATHS</string>
+    <string name="bVolverAcerca">BACK</string>
+    <!--- Menu -->
+    <string name="miCalculadora">CALCULATOR</string>
+    <string name="miTest">TEST</string>
+    <string name="miAcercaDe">ABOUT</string>
+</resources>

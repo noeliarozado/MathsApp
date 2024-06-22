@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--- Respuestas de la pregunta 5 del test -->
+    <string-array name="respuestasPregunta5Array">
+        <item>Seleccione una respuesta</item>
+        <item>19</item>
+        <item>94</item>
+        <item>46</item>
+    </string-array>
+    <!--- Respuestas de la pregunta 6 del test -->
+    <string-array name="respuestasPregunta6Array">
+        <item>Seleccione una respuesta</item>
+        <item>10</item>
+        <item>100</item>
+        <item>1000</item>
+    </string-array>
+
+    <!--- Nombre de la App -->
+    <string name="app_name">AppMatematica</string>
+    <!--- MainActivity -->
+    <string name="tvBienvenida">Bienvenid@ a la App Matemática</string>
+    <string name="tvOpción">Seleccione una opción:</string>
+    <string name="bCalculadora">CALCULADORA</string>
+    <string name="bAleatorio">NÚMERO ALEATORIO</string>
+    <string name="bParImpar">PAR O IMPAR</string>
+    <string name="bPrimo">NÚMERO PRIMO</string>
+    <string name="bTest">TEST</string>
+    <string name="bAcercaDe">ACERCA DE</string>
+    <string name="bSalir">SALIR</string>
+    <string name="strSalir">Salir</string>
+    <string name="strPreguntaSalir">¿Desea salir de la App?</string>
+    <string name="strSí">Sí</string>
+    <string name="strNo">No</string>
+    <!--- PublicidadFragment -->
+    <string name="tvPublicidad">PANADERÍA LA MIGA DE PAN. Disfrute de pan recién horneado todos los días. También elaboramos empanadas y dulces asturianos. Productos 100% artesanos.</string>
+    <!--- CalculadoraActivity -->
+    <string name="tvCalculadora">CALCULADORA</string>
+    <string name="tvInfoToggleButton">Encienda la calculadora para empezar a realizar cálculos.</string>
+    <string name="tbCalculadora">CALCULADORA APAGADA</string>
+    <string name="tvNúmero1">Introduzca el primer número:</string>
+    <string name="etNúmero1">Número 1</string>
+    <string name="tvNúmero2">Introduzca el segundo número:</string>
+    <string name="etNúmero2">Número 2</string>
+    <string name="tvOperación">Seleccione la operación a realizar:</string>
+    <string name="bSumar">SUMAR</string>
+    <string name="bRestar">RESTAR</string>
+    <string name="bMultiplicar">MULTIPLICAR</string>
+    <string name="bDividir">DIVIDIR</string>
+    <string name="tvResultadoCalculadora">Resultado: -</string>
+    <string name="bVolver">VOLVER</string>
+    <string name="strCalcuApagada">La calculadora está apagada. Pulse el botón para encenderla.</string>
+    <string name="strErrorDosNum">¡ERROR! Hay que introducir dos números para realizar las operaciones.</string>
+    <string name="strResultadoSumar">Resultado:</string>
+    <string name="strResultadoRestar">Resultado:</string>
+    <string name="strResultadoMultiplicar">Resultado:</string>
+    <string name="strResultadoDividir">Resultado:</string>
+    <string name="strErrorDivisorCero">¡ERROR! El el divisor no puede ser 0.</string>
+    <!--- AleatorioActivity -->
+    <string name="tvAleatorio">NÚMERO ALEATORIO</string>
+    <string name="tvInstrucciónSwitch">Pulse el botón para encender.</string>
+    <string name="sAleatorio">Apagado</string>
+    <string name="tvNúmeroAleatorio1">Introduce un número entero:</string>
+    <string name="etNúmero1Aleatorio">Número 1</string>
+    <string name="tvNúmeroAleatorio2">Introduce otro número entero:</string>
+    <string name="etNúmero2Aleatorio">Número 2</string>
+    <string name="tvInstrucciónBotón">Pulse el botón para obtener un número aleatorio dentro del rango seleccionado.</string>
+    <string name="bNúmeroAleatorio">NÚMERO ALEATORIO</string>
+    <string name="tvResultadoAleatorio">Número: -</string>
+    <string name="bVolverAleatorio">VOLVER</string>
+    <string name="strBotónApagado">Está apagado. Pulse el botón para encenderlo.</string>
+    <string name="strErrorDosNúmeros">¡ERROR! Debe introducir dos números.</string>
+    <string name="strErrorMayorCero">¡ERROR! Los números tienen que ser mayores que 0.</string>
+    <string name="strErrorNúmerosIguales">¡ERROR! Los números no pueden ser iguales.</string>
+    <string name="strErrorNúmeroMayor">¡ERROR! El primer número tiene que ser menor que el segundo número.</string>
+    <string name="strResultadoAleatorio">El resultado es:</string>
+    <!--- ParImparActivity -->
+    <string name="tvParImpar">PAR O IMPAR</string>
+    <string name="tvNúmeroParImpar">Introduzca un número:</string>
+    <string name="etNúmeroPar">Número</string>
+    <string name="tvInstrucciónBotónPar">Pulse el botón para saber si el número es par o impar.</string>
+    <string name="bSaberParImpar">PAR O IMPAR</string>
+    <string name="tvResultadoPar">El número es: -</string>
+    <string name="bVolverPar">VOLVER</string>
+    <string name="strErrorFaltaNum">¡ERROR! Debe introducir un número.</string>
+    <string name="strErrorNumMayCero">¡ERROR!El número tiene que ser mayor que cero.</string>
+    <string name="strEsPar">Es par.</string>
+    <string name="strEsImpar">Es impar.</string>
+    <!--- NumeroPrimoActivity -->
+    <string name="tvPrimo">NUMERO PRIMO</string>
+    <string name="tvNúmero">Introduzca un numero:</string>
+    <string name="etNúmeroPrimo">Número</string>
+    <string name="tvInstrucciónBotónPrimo">Pulse el botón para saber si el número es primo o no.</string>
+    <string name="bNúmeroPrimo">NÚMERO PRIMO</string>
+    <string name="tvResultadoPrimo">El número - primo.</string>
+    <string name="bVolverPrimo">VOLVER</string>
+    <string name="strErrorIntroduceNum">"¡ERROR! Debe introducir un número.</string>
+    <string name="strErrorNumMayorCero">¡ERROR! El número tiene que ser mayor que 0.</string>
+    <string name="strNoPrimo">No es primo.</string>
+    <string name="strEsPrimo">Es primo.</string>
+    <!--- TestActivity -->
+    <string name="tvTest">TEST</string>
+    <string name="tvPregunta1">PREGUNTA 1. ¿Cuántos lados tiene un heptadecágono?</string>
+    <string name="rbRespuesta1_1">17</string>
+    <string name="rbRespuesta1_2">70</string>
+    <string name="tvPregunta2">PREGUNTA 2. ¿Cuántos vértices tiene un tetraedro?</string>
+    <string name="rbRespuesta2_1">5</string>
+    <string name="rbRespuesta2_2">4</string>
+    <string name="tvPregunta3">PREGUNTA 3. El número 7 es:</string>
+    <string name="cbRespuesta3_1">Un número primo.</string>
+    <string name="cbRespuesta3_2">Un número par.</string>
+    <string name="cbRespuesta3_3">Un número impar.</string>
+    <string name="tvPregunta4">PREGUNTA 4. Los triángulos equiláteros:</string>
+    <string name="cbRespuesta4_1">Solo tienen dos lados iguales.</string>
+    <string name="cbRespuesta4_2">Tienen tres lados iguales.</string>
+    <string name="cbRespuesta4_3">Tienen ángulos de 50º.</string>
+    <string name="cbRespuesta4_4">Tienen ángulso de 60º.</string>
+    <string name="tvPregunta5">PREGUNTA 5. ¿Cuál es el resultado de esta operación? (12 + 8) x 5 – 6</string>
+    <string name="tvPregunta6">PREGUNTA 6. ¿Cuántos centímetros tiene un metro?</string>
+    <string name="bPuntuación">PUNTUACIÓN</string>
+    <string name="tvPuntuación">Puntuación: - puntos</string>
+    <string name="bVolverTest">VOLVER</string>
+    <string name="strPregunta1">¡ERROR! Debe seleccionar una respuesta en la Pregunta 1.</string>
+    <string name="strPregunta2">¡ERROR! Debe seleccionar una respuesta en la Pregunta 2.</string>
+    <string name="strPregunta3">¡ERROR! Debe seleccionar una respuesta en la Pregunta 3.</string>
+    <string name="strPregunta4">¡ERROR! Debe seleccionar una respuesta en la Pregunta 4.</string>
+    <string name="strPregunta5">¡ERROR! Debe seleccionar una respuesta en la Pregunta 5.</string>
+    <string name="strPregunta6">¡ERROR! Debe seleccionar una respuesta en la Pregunta 6.</string>
+    <string name="str0Puntos">0 puntos sobre 6</string>
+    <string name="str1Punto">1 punto sobre 6</string>
+    <string name="str2Puntos">2 puntos sobre 6</string>
+    <string name="str3Puntos">3 puntos sobre 6</string>
+    <string name="str4Puntos">4 puntos sobre 6</string>
+    <string name="str5Puntos">5 puntos sobre 6</string>
+    <string name="str6Puntos">6 puntos sobre 6</string>
+    <!--- AcercaDeActivity -->
+    <string name="tvAcercaDe">ACERCA DE</string>
+    <string name="tvIdentificación">Noelia Rozado</string>
+    <string name="tvCorreo">https://github.com/noeliarozado</string>
+    <string name="bAprenda">APRENDA MÁS MATEMÁTICAS</string>
+    <string name="bVolverAcerca">VOLVER</string>
+    <!--- Menu -->
+    <string name="miCalculadora">CALCULADORA</string>
+    <string name="miTest">TEST</string>
+    <string name="miAcercaDe">ACERCA DE</string>
+</resources>

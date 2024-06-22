@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AleatorioActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvAleatorio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="#EFCEF4"
+                android:text="@string/tvAleatorio"
+                android:textAlignment="center"
+                android:textColor="#673AB7"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvInstrucciónSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/tvInstrucciónSwitch"
+                android:textAlignment="textStart"
+                android:textSize="16sp" />
+
+            <Switch
+                android:id="@+id/sAleatorio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginRight="130dp"
+                android:layout_marginBottom="15dp"
+                android:minHeight="48dp"
+                android:text="@string/sAleatorio" />
+
+            <TextView
+                android:id="@+id/tvNúmeroParImpar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/tvNúmeroAleatorio1"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etNúmero1Aleatorio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:ems="10"
+                android:hint="@string/etNúmero1Aleatorio"
+                android:inputType="numberSigned"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/tvNúmeroAleatorio2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/tvNúmeroAleatorio2"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etNúmero2Aleatorio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:ems="10"
+                android:hint="@string/etNúmero2Aleatorio"
+                android:inputType="numberSigned"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/tvInstrucciónBotónPrimo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="#FFFFFF"
+                android:text="@string/tvInstrucciónBotón"
+                android:textAlignment="textStart"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/bNúmeroAleatorio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#3DC2FF"
+                android:onClick="númeroAleatorio"
+                android:text="@string/bNúmeroAleatorio"
+                tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/tvResultadoAleatorio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="#FFF59C"
+                android:text="@string/tvResultadoAleatorio"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/bVolverAcerca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#E91E63"
+                android:onClick="volver"
+                android:text="@string/bVolverAleatorio"
+                tools:ignore="TextContrastCheck" />
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fPublicidadAleatorio"
+                android:name="com.example.appmatematica.PublicidadFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                tools:layout="@layout/publicidad_fragment" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

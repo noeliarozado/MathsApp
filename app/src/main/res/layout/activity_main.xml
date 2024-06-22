@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvBienvenida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tvBienvenida"
+                android:textAlignment="center"
+                android:textColor="#687FFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ivBienvenida"
+                android:layout_width="match_parent"
+                android:layout_height="276dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/gatitosmates" />
+
+            <TextView
+                android:id="@+id/tvOpción"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/tvOpción"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/bCalculadora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#3DC2FF"
+                android:onClick="entrarCalculadora"
+                android:text="@string/bCalculadora"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/bAleatorio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#3DC2FF"
+                android:onClick="entrarNúmeroAleatorio"
+                android:text="@string/bAleatorio"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/bPuntuación"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#3DC2FF"
+                android:onClick="entrarNúmeroParImpar"
+                android:text="@string/bParImpar"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/bNúmeroPrimo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#3DC2FF"
+                android:onClick="entrarNúmeroPrimo"
+                android:text="@string/bPrimo"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/bTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#3DC2FF"
+                android:onClick="entrarTest"
+                android:text="@string/bTest"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/bAcercaDe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#7EEA72"
+                android:onClick="entrarAcercaDe"
+                android:text="@string/bAcercaDe"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/bSalir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#F4A0F0"
+                android:onClick="salir"
+                android:text="@string/bSalir"
+                tools:ignore="TextContrastCheck" />
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fPublicidadMain"
+                android:name="com.example.appmatematica.PublicidadFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                tools:layout="@layout/publicidad_fragment" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
